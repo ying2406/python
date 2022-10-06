@@ -37,6 +37,5 @@ for x in range(3):
     turtle.left(30)
     turtle.forward(100)
 
-
 driehoek() 
 input()
