@@ -2,10 +2,6 @@ from PIL import Image, ImageFont, ImageDraw
 
 afbeelding = Image.open("meme_background.jpg")
 
-
-afbeelding.show()
-
-
 breedte = afbeelding.width
 hoogte = afbeelding.height
 
@@ -25,4 +21,4 @@ tekengebied.multiline_text((10,10), tekst, font=lettertype, fill=(0,0,0))
 
 afbeelding.show()
 
-achtergrond.save("meme_background.jpg")
+afbeelding.save("meme_background2.jpg")
